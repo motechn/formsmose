@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ss.css">
+    <title>flex box</title>
+
+    
+</head>
+<body >
+    
+    <header id="hea">
+      <img src="ms.png"> <h1 id="headerheading">Mose Sports</h1> 
+    </header>
+
+    <nav>
+        <a href="#a">AboutUs</a>  <a href="#a">News</a>  <a href="#a">Fixtures</a>
+    </nav>
+
+    <main class="flex-container">
+       
+        <h1>Date</h1>
+
+        <p id="demo">This is a prograph</p>
+
+        <button type="button" onclick="displayDate()">Display Date</button>
+          
+
+    </main>
+
+    <footer>
+       <p>&copy Mose Sports 2024 All Rights Reserved</p> 
+    </footer>
+
+    <script>
+       
+       function displayDate(){
+        document.getElementById('demo').innerHTML =Date();
+       }
+      
+
+    </script>
+
+    
+</body>
+</html>
